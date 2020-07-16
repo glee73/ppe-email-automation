@@ -1,6 +1,6 @@
 ﻿# ppe-emails
 
-INTRODUCTION
+INTRODUCTION:
 
 I created this program when I was volunteering for a nonprofit that
 distributed PPE to healthcare workers working with COVID-19 patients.
@@ -13,6 +13,12 @@ and paste all the recipients' information into a table - I had a case
 where one donor was donating to 19 recipients - so it was tedious and
 time-consuming. Because my first sheet took me about 6 hours, I decided to save
 some time by automating it.
+
+TECHNOLOGIES: 
+
+Pandas, Numpy, SMTPlib
+
+OVERVIEW:
 
 Logging into email & reading from Excel
 
