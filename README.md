@@ -32,7 +32,7 @@ Iterating through the matches
 I knew I had to find an efficient way to get through all the donors, so I
 decided to turn the email column into a NumPy array. Since multiple-recipient
 matches barred me from using a for-loop - the donor's email would appear
-multiple times at the front of the array, I created a helper function to delete
+multiple times at the front of the array - I created a helper function to delete
 the donor emails accordingly and I iterated through the array with a while loop
 until it was empty. To see if a match was single- or multiple-recipient, I
 checked to see if the first item of the array was equal to the second.
