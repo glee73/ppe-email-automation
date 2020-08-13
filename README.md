@@ -16,7 +16,7 @@ some time by automating it.
 
 TECHNOLOGIES: 
 
-Pandas, Numpy, SMTPlib
+Pandas, Numpy, HTML
 
 OVERVIEW:
 
