@@ -4,15 +4,12 @@
 
 I created this program when I was volunteering for a nonprofit that
 distributed PPE to healthcare workers working with COVID-19 patients.
-Each week, I would receive an Excel sheet of donor-recipient matches, spit
-straight out of the nonprofit's matching algorithm, and I would connect
-the donors and recipients using a couple of email templates. There were two
-kinds of matches: one donor to one recipient and one donor to multiple
-recipients. The latter kind was especially frustrating because I had to copy
-and paste all the recipients' information into a table - I had a case
-where one donor was donating to 19 recipients - so it was tedious and
-time-consuming. Because my first sheet took me about 6 hours, I decided to save
-some time by automating it.
+Since the nonprofit was a startup, there wasn't much infrastructure in
+place, and all of the donor-recipient match emails had to be copied and 
+pasted by hand. The process was a little tedious, so I decided to save 
+some time by automating the email-sending. I intended to distribute this 
+as an executable to my team as well, to use until the technology team 
+could develop a more robust platform for us.
 
 ## Technologies 
 
