@@ -1,6 +1,6 @@
-## PPE Email Automation
+# PPE Email Automation
 
-# Introduction
+## Introduction
 
 I created this program when I was volunteering for a nonprofit that
 distributed PPE to healthcare workers working with COVID-19 patients.
@@ -14,11 +14,11 @@ where one donor was donating to 19 recipients - so it was tedious and
 time-consuming. Because my first sheet took me about 6 hours, I decided to save
 some time by automating it.
 
-# Technologies 
+## Technologies 
 
 Pandas, Numpy, HTML
 
-# Overview
+## Overview
 
 *Logging into email & reading from Excel*
 
@@ -55,7 +55,7 @@ HTML so that it could be placed as an f-string into the email as a table.
 Once I finished sending all the emails, I had the script send the user an
 email informing them of the sent and unsent emails.
 
-# Instructions for use
+## Instructions for use
 
 Place the match sheet and the Python script in the same folder. Navigate
 to the correct directory using the command line and type "python automated.py".
@@ -63,7 +63,7 @@ Important notes - the emails in the match sheet must be sorted in alphabetical
 order & the user must have Pandas, NumPy, and Python installed (unless the user
 is using an .exe version)
 
-# Bugs/shortcomings
+## Bugs/shortcomings
 
 This script assumes that all donors have a valid email listed because that was
 always the case. I still tried to implement safeguards, but I found it difficult
