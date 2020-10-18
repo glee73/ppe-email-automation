@@ -1,3 +1,5 @@
+# PPE Email Automation
+
 # Introduction:
 
 I created this program when I was volunteering for a nonprofit that
@@ -18,14 +20,14 @@ Pandas, Numpy, HTML
 
 # Overview:
 
-*Logging into email & reading from Excel
+*Logging into email & reading from Excel*
 
 At the start of the script, I coded a few lines to let the user input their
 email log-in info, name, and match sheet name. Next, I read in the match sheet
 as a Pandas dataframe, which I cleaned to contain only the columns that I
 needed.
 
-*Iterating through the matches
+*Iterating through the matches*
 
 I knew I had to find an efficient way to get through all the donors, so I
 decided to turn the email column into a NumPy array. I created a helper function 
@@ -33,7 +35,7 @@ to delete the donor emails as I iterated through the array with a while loop
 until it was empty. To see if a match was single- or multiple-recipient, I
 checked to see if the first item of the array was equal to the second.
 
-*Sending the email
+*Sending the email*
 
 I created separate helper functions to deal with single- and multiple-recipient
 matches and applied them to the chunk of the dataframe with the correct donor
