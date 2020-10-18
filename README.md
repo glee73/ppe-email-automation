@@ -9,7 +9,8 @@ place, and all of the donor-recipient match emails had to be copied and
 pasted by hand. The process was a little tedious, so I decided to save 
 some time by automating the email-sending. I intended to distribute this 
 as an executable to my team as well, to use until the technology team 
-could develop a more robust platform for us.
+could develop a more robust platform for us. This was my first personal
+project!
 
 ## Technologies 
 
